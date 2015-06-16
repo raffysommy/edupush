@@ -1,0 +1,12 @@
+applications:
+- services:
+  - edupush-MAS
+  - edupush-Push
+  disk_quota: 1024M
+  host: edupush
+  name: edupush
+  command: node app.js
+  path: .
+  domain: mybluemix.net
+  instances: 1
+  memory: 64M
